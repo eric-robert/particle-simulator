@@ -1,0 +1,33 @@
+[package]
+name = "particles"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+console_log = "0.1.2"
+console_error_panic_hook = "0.1.6"
+web-sys = { version = "0.3.53", features = ["Location"] }
+rand = { version = "0.7", features = ["wasm-bindgen"] }
+js-sys = "0.3.50"
+wasm-bindgen-futures = "0.4.23"
+parking_lot = "0.12"
+wasm-bindgen = "0.2.76"
+async-executor = "1.0"
+pollster = "0.2"
+env_logger = "0.9"
+noise = { version = "0.7", default-features = false }
+obj = "0.10"
+png = "0.17"
+winit = "0.26"
+bitflags = "1"
+bytemuck = { version = "1.4", features = ["derive"] }
+glam = "0.20.2"
+ddsfile = "0.5"
+log = "0.4"
+arrayvec = "0.7"
+raw-window-handle = "0.4"
+serde = { version = "1", features = ["derive"], optional = true }
+smallvec = "1.8.0"
+wgpu = "0.12.0"
